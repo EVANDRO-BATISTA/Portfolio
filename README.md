@@ -3,7 +3,7 @@ My_Portfolio
 
 Commitar:
 git init
+git config -- global user.email "email"
 git add .
 git commit -m "#"
-git config -- global user.email "email"
 git push -u origin main
