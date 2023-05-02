@@ -4,22 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifoli_EvandroBatista</title>
+    <title>Portifolio_EvandroBatista</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
     <header class="header">
-        <a href="#" class="logo">Portifolio</a>
+        <a href="#" class="logo" >Portifolio</a>
 
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <!--Bara de navegação superior-->
         <nav class="navbar">
-            <a href="#home" class="active">Home</a><!--principal-->
-            <a href="#about">About</a><!--sobre-->
-            <a href="#services">Services</a><!--Serviços-->
-            <a href="#portifolio">Portifolio</a><!--trabalhos-->
-            <a href="#contact">Contact</a><!--contato-->
+            <a href="#Home" class="active">Home</a><!--principal-->
+            <a href="#About">About</a><!--sobre mim-->
+            <a href="#Services">Services</a><!--Serviços-->
+            <a href="#Portfolio">Portifolio</a><!--trabalhos-->
+            <a href="#Contact">Contact</a><!--contato-->
         </nav>
 
+        
     </header>
+    <!-- home section design -->
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h3>Olá, sou</h3>
+            <h1>Evandro Batista</h1>
+            <h3>E sou um <span>Desenvolvedor Web</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ut consectetur enim minus adipisci,</p>
+            <div class="midias-sociais">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="imagens/Perfil.png" alt="">
+        </div>
+    </section>
+
+    <!-- About section design -->
+    <section class="about" id="About">
+        <div class="about-img">
+            <img src="imagens/Perfil.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <h3>Desenvolvedor Web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error voluptate, ipsum omnis nisi neque fuga expedita magni rerum sequi id quas ea quaerat eveniet nostrum cum harum optio fugiat rem?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services section design -->
+    <section class="services" id="Services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Desenvolvedor Web</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam est voluptates cupiditate at expedita adipisci id porro ad alias eaque! Ad soluta nesciunt eos earum laboriosam mollitia quae unde ex!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Designer Grafico</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam est voluptates cupiditate at expedita adipisci id porro ad alias eaque! Ad soluta nesciunt eos earum laboriosam mollitia quae unde ex!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-line-chart-down'></i>
+                <h3>Marketing Digital</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam est voluptates cupiditate at expedita adipisci id porro ad alias eaque! Ad soluta nesciunt eos earum laboriosam mollitia quae unde ex!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Portifolio section design --> 
+   <section class="portfolio" id="Portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="imagens/linguagens.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque soluta dolore tempora illum ipsam doloremque nisi at sit nam rerum, labore, inventore animi, tempore natus voluptate assumenda odit quod vitae.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="imagens/devops.jpg" alt="">
+                <div class="portifolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque soluta dolore tempora illum ipsam doloremque nisi at sit nam rerum, labore, inventore animi, tempore natus voluptate assumenda odit quod vitae.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="imagens/rede.jpg" alt="">
+                <div class="portifolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque soluta dolore tempora illum ipsam doloremque nisi at sit nam rerum, labore, inventore animi, tempore natus voluptate assumenda odit quod vitae.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="imagens/codigo.jpg" alt="">
+                <div class="portifolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque soluta dolore tempora illum ipsam doloremque nisi at sit nam rerum, labore, inventore animi, tempore natus voluptate assumenda odit quod vitae.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+   </section>
+
+    <!-- custom js -->
     <script src="js/script.js"></script>
 </body>
 </html>
