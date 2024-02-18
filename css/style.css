@@ -350,6 +350,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .contact-container .contact-box {
@@ -369,8 +370,13 @@ span {
     transform: scale(1.02);
 }
 
-.contact-box i {
+.contact-box .bxs-contact {
     font-size: 7rem;
+    color: var(--main-color);
+}
+
+.bxl-whatsapp{
+    font-size: 4rem;
     color: var(--main-color);
 }
 
